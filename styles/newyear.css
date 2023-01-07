@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    font-family: 'Work Sans';
+}
+
+body {
+    /* margin: 0 230px; */
+}
+
+
+
+.header {
+    background-image: url(../images/banner/banner2.png);
+    /* width: 1300px; */
+    height: 100vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-bottom: 130px;
+
+
+
+}
+
+/* .header.banner{
+    text-align: center;
+} */
+/* --------------------Banner Style------------------- */
+.banner {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: flex-end; */
+    /* justify-items: center; */
+    align-items: flex-end;
+    width: 525px;
+    /* text-align: right; */
+    /* justify-content: right center; */
+    padding-right: 150px;
+}
+
+.banner-title {
+    color: #151414;
+    font-weight: 700;
+    font-size: 65px;
+    text-align: right;
+
+}
+
+.banner-text {
+    color: #444343;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: right;
+
+
+}
+
+.btn-primary {
+    font-weight: 700;
+    font-size: 20px;
+    /* line-height: 27px; */
+    color: #FFFFFF;
+    /* padding: 18px 35px;
+    height: 64px; */
+    /* width: 150px; */
+    background: #FD6E0A;
+    border-radius: 5px;
+    border: 0;
+    width: 160px;
+    height: 64px;
+}
+
+/*-----------------------------My Failures--------------------- */
+.failure {
+    display: flex;
+    align-items: center;
+    padding-right: 100px;
+    padding-left: 100px;
+    /* margin-bottom: 130px; */
+    justify-content: space-between;
+    text-align: justify;
+    /* justify-items: flex-end; */
+}
+
+.failure-text {
+    margin-right: auto;
+}
+
+
+.failure-title {
+
+    margin-bottom: 24px;
+    color: #151414;
+    font-weight: 700;
+    font-size: 40px;
+    width: 288px;
+}
+
+.failure-description {
+    margin-bottom: 16px;
+    color: #444343;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: left;
+
+}
+
+.failure-tick-description {
+    margin-bottom: 8px;
+
+
+}
+
+/* ----------------------My plans style-------------------- */
+.section-title {
+    color: #151414;
+     font-weight: 179px;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 50px;
+    
+    
+    /* margin-bottom: 30px;
+    font-weight: 700;
+    font-size: 35px; */
+}
+
+.my-plans {
+    margin-top: 130px;
+   
+    /* display: flex; */
+    align-items: center;
+    padding-right: 100px;
+    padding-left: 100px;
+    margin-bottom: 125px;
+
+}
+
+/* .plans {
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    padding: 30px;
+    margin-bottom: 130px;
+} */
+
+.plans-container {
+    display: flex;
+    justify-content: space-between;
+    justify-items: flex-end;
+    gap: 24px;
+}
+
+.plans-title {
+    color: #151414;
+    font-weight: 700;
+font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    /* width: 218px; */
+    
+}
+
+.plans-description {
+    color: #757575;
+    font-weight: 400;
+    font-size: 16px;
+}
