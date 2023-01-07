@@ -79,17 +79,20 @@ body {
     padding-right: 100px;
     padding-left: 100px;
     /* margin-bottom: 130px; */
-    justify-content: space-between;
+    justify-content: space-evenly;
     text-align: justify;
     /* justify-items: flex-end; */
 }
-/* .bg-img-person{
-    width: 400px;
-height: 500px;
-} */
+
+.bg-img-person{
+    width: 450px;
+    margin-right: 70px;
+/* height: 500px; */
+}
 
 .failure-text {
-    margin-right: auto;
+    /* margin-right: auto; */
+    width: 416px;
 }
 
 
@@ -116,6 +119,9 @@ height: 500px;
 
 
 }
+.tick{
+    margin-bottom: 10px;
+}
 
 /* ----------------------My plans style-------------------- */
 .section-title {
@@ -123,7 +129,9 @@ height: 500px;
     font-weight: 179px;
     font-size: 40px;
     text-align: center;
+    font-weight: 700;
     margin-bottom: 50px;
+
 
 
 }
@@ -143,6 +151,7 @@ height: 500px;
     /* justify-content: center;
     justify-items: center; */
     align-items: center;
+    text-align: center;
     /* background: #FFFFFF;
     box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
     border-radius: 5px;
@@ -163,6 +172,7 @@ height: 500px;
     font-size: 30px;
     margin-top: 20px;
     margin-bottom: 15px;
+    
     /* width: 218px; */
 
 }
@@ -174,45 +184,58 @@ height: 500px;
 }
 
 /* <!-------------------------Gradient Part style------------------ --> */
+/* .gradient{
+
+} */
+.inner-gradient{
+    position: absolute;
+    top: 60px;
+    left: 160px;
+}
 .gradient-img {
     position: relative;
     top: 0;
     left: 0;
-    
-  }
-  .img1 {
+
+}
+
+.img1 {
     position: relative;
     top: 0;
     left: 0;
     padding-left: 100px;
-  }
-  .img2 {
+}
+
+.img2 {
     position: absolute;
     top: 0;
     left: 0;
     padding-left: 100px;
-    
-  }
-  .gradient-title{
-    /* color: #FFFFFF; */
+
+}
+
+.gradient-title {
+    color: #FFFFFF;
     font-weight: 700;
-font-size: 40px;
+    font-size: 40px;
+    margin-bottom: 25px;
 
-  }
-  .btn-gradient{
-    
-background: #FFFFFF;
-border-radius: 5px;
-text-align: center;
-width: 160px;
-height: 64px;
-font-weight: 600;
-font-size: 20px;
-color: #F15B22;
-/* border: 0; */
+}
+
+.btn-gradient {
+
+    background: #FFFFFF;
+    border-radius: 5px;
+    text-align: center;
+    width: 160px;
+    height: 64px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #F15B22;
+    border: 0;
 
 
-  }
+}
 
 
 
@@ -221,8 +244,10 @@ color: #F15B22;
 /*--------------------------- contact form styles------------------------ */
 .contact {
     margin-top: 130px;
+
     display: flex;
-    gap: 100px;
+    justify-content: space-evenly;
+    /* gap: 100px; */
     /* background: #FFF8F3;
     padding: 130px 200px;  */
     /* width: 1600px;
@@ -230,6 +255,9 @@ color: #F15B22;
     height: 100vh;
 
     background: #151414;
+}
+.contact-sub-box{
+    width: 485px;
 }
 
 .contact .section-title {
@@ -241,39 +269,40 @@ color: #F15B22;
 
 
 }
-.contact,input[type="email"]{
-    margin-bottom: 24px;
-    border: 0;
-    width: 100%;
-    /* padding: 18px 30px; */
-}
-input{
+
+
+input {
     height: 64px;
 }
-.contact{
+
+.contact {
     text-decoration: none;
 }
-.para-1{
+
+.para-1 {
     color: #FFFFFF;
     padding-left: 100px;
     margin-bottom: 24px;
 }
-.para-2{
+
+.para-2 {
     color: #FFFFFF;
     padding-left: 100px;
     margin-bottom: 16px;
 }
-.para-3{
+
+.para-3 {
     color: #FFFFFF;
     padding-left: 100px;
     margin-bottom: 16px;
 }
-.icons{
-    padding-left: 100px; 
+
+.icons {
+    padding-left: 100px;
     margin-right: 18px;
 }
 
-.subscribe-title{
+.subscribe-title {
     text-align: left;
     color: #F8F8F8;
     margin-top: 130px;
@@ -281,14 +310,23 @@ input{
     /* padding-left: 100px; */
     margin-bottom: 16px;
     font-weight: 600;
-font-size: 25px;
+    font-size: 25px;
 }
-.btn-sub{
-   color: #F15B22;
-   font-weight: 600;
-font-size: 16px;
 
-background: #FFFFFF;
-border-radius: 8px;
+.btn-sub {
+    color: #F15B22;
+    font-weight: 600;
+    font-size: 16px;
+    width: 130px;
+    background: #FFFFFF;
+    border-radius: 8px;
+    margin-top: 20px;
+
+}
+.sub-box{
+    width: 325px;
+}
+.input-box{
+    width: 325px;
 
 }
