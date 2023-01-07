@@ -81,6 +81,10 @@ body {
     text-align: justify;
     /* justify-items: flex-end; */
 }
+/* .bg-img-person{
+    width: 400px;
+height: 500px;
+} */
 
 .failure-text {
     margin-right: auto;
@@ -114,12 +118,12 @@ body {
 /* ----------------------My plans style-------------------- */
 .section-title {
     color: #151414;
-     font-weight: 179px;
+    font-weight: 179px;
     font-size: 40px;
     text-align: center;
     margin-bottom: 50px;
-    
-    
+
+
     /* margin-bottom: 30px;
     font-weight: 700;
     font-size: 35px; */
@@ -127,7 +131,7 @@ body {
 
 .my-plans {
     margin-top: 130px;
-   
+
     /* display: flex; */
     align-items: center;
     padding-right: 100px;
@@ -136,13 +140,15 @@ body {
 
 }
 
-/* .plans {
-    background: #FFFFFF;
+.plans {
+    justify-content: center;
+    justify-items: center;
+    /* background: #FFFFFF;
     box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
     border-radius: 5px;
     padding: 30px;
-    margin-bottom: 130px;
-} */
+    margin-bottom: 130px; */
+}
 
 .plans-container {
     display: flex;
@@ -154,15 +160,92 @@ body {
 .plans-title {
     color: #151414;
     font-weight: 700;
-font-size: 30px;
+    font-size: 30px;
     margin-top: 20px;
     margin-bottom: 15px;
     /* width: 218px; */
-    
+
 }
 
 .plans-description {
     color: #757575;
     font-weight: 400;
     font-size: 16px;
+}
+
+/* <!-------------------------Gradient Part style------------------ --> */
+
+/*--------------------------- contact form styles------------------------ */
+.contact {
+    margin-top: 130px;
+    display: flex;
+    gap: 100px;
+    /* background: #FFF8F3;
+    padding: 130px 200px;  */
+    /* width: 1600px;
+    height: 577px; */
+    height: 100vh;
+
+    background: #151414;
+}
+
+.contact .section-title {
+    text-align: left;
+    color: #F8F8F8;
+    margin-top: 130px;
+    padding-left: 100px;
+    margin-bottom: 16px;
+
+
+}
+.contact,input[type="email"]{
+    margin-bottom: 24px;
+    border: 0;
+    width: 100%;
+    /* padding: 18px 30px; */
+}
+input{
+    height: 64px;
+}
+.contact{
+    text-decoration: none;
+}
+.para-1{
+    color: #FFFFFF;
+    padding-left: 100px;
+    margin-bottom: 24px;
+}
+.para-2{
+    color: #FFFFFF;
+    padding-left: 100px;
+    margin-bottom: 16px;
+}
+.para-3{
+    color: #FFFFFF;
+    padding-left: 100px;
+    margin-bottom: 16px;
+}
+.icons{
+    padding-left: 100px; 
+    margin-right: 18px;
+}
+
+.subscribe-title{
+    text-align: left;
+    color: #F8F8F8;
+    margin-top: 130px;
+    margin-right: 400px;
+    /* padding-left: 100px; */
+    margin-bottom: 16px;
+    font-weight: 600;
+font-size: 25px;
+}
+.btn-sub{
+   color: #F15B22;
+   font-weight: 600;
+font-size: 16px;
+
+background: #FFFFFF;
+border-radius: 8px;
+
 }
